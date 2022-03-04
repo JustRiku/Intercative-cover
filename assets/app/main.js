@@ -4,9 +4,9 @@ document.addEventListener('mousemove', function(e){
     let elemnt = document.getElementById("Portada");
     if(elemnt.clientWidth > 800){
         let x = e.clientX;
-        x -= 310;
+        x -= 400;
         let y = e.clientY;
-        y -= 450;
+        y -= 400;
         cursor.style.transform = `translate(${x}px, ${y}px)`;
     }else{
         cursor.style.transform = `translate(0, 0)`;
